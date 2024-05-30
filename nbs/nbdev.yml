@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "OPUS"
+  site-url: "https://lidar532.github.io/OPUS"
+  description: "A Python library for reading and parsing NOAA OPUS reports."
+  repo-branch: main
+  repo-url: "https://github.com/lidar532/OPUS"
