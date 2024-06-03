@@ -1,0 +1,62 @@
+FILE: sthl0610.24o OP1717171953929
+
+ 1009   WARNING! You selected antenna type ‘NONE’, so no calibration was applied.
+ 1009   Coordinates with reduced accuracy were computed for your antenna phase center.
+ 1009   For help identifying yours, or to add a new type, contact ngs.antcal@noaa.gov
+ 1009
+ 1008   NOTE: You provided a zero or negative antenna height.
+ 1008   If ARP HGT = 0.0, OPUS solves for the position of your selected antenna's reference point (ARP).
+ 1008   If ARP HGT < 0.0, OPUS solves for a location inside or above the antenna
+ 1008
+                              NGS OPUS SOLUTION REPORT
+                              ========================
+
+All computed coordinate accuracies are listed as peak-to-peak values.
+For additional information: https://www.ngs.noaa.gov/OPUS/about.jsp#accuracy
+
+      USER: fake@email.com                           DATE: May 31, 2024
+RINEX FILE: sthl061a.24o                             TIME: 16:13:56 UTC
+
+
+  SOFTWARE: page5  2008.25 master297.pl 160321      START: 2024/03/01  00:00:00
+ EPHEMERIS: igs23035.eph [precise]                   STOP: 2024/03/01  03:00:00
+  NAV FILE: brdc0610.24n                         OBS USED:  6837 /  6978   :  98%
+  ANT NAME: NONE            NONE              # FIXED AMB:    22 /    29   :  76%
+ARP HEIGHT: 0.000                             OVERALL RMS: 0.014(m)
+
+
+ REF FRAME: NAD_83(2011)(EPOCH:2010.0000)              ITRF2014 (EPOCH:2024.1641)
+
+         X:      6104818.188(m)   0.029(m)           6104817.320(m)   0.029(m)
+         Y:      -605830.498(m)   0.025(m)           -605827.720(m)   0.025(m)
+         Z:     -1740739.337(m)   0.010(m)          -1740738.608(m)   0.010(m)
+
+       LAT:  -15 56 33.12668      0.017(m)       -15 56 33.11405      0.017(m)
+     E LON:  354 19 57.47560      0.026(m)       354 19 57.56567      0.026(m)
+     W LON:    5 40  2.52440      0.026(m)         5 40  2.43433      0.026(m)
+    EL HGT:          454.500(m)   0.025(m)               453.205(m)   0.025(m)
+ ORTHO HGT: [No NGS Geoid Model Available.]
+
+                        UTM COORDINATES    STATE PLANE COORDINATES
+                         UTM (Zone 30)         *** NOTE ***
+Northing (Y) [meters]     8235594.359      Please manually select
+Easting (X)  [meters]      214444.508      SPC zone.
+Convergence  [degrees]    -0.73315278
+Point Scale                1.00060853
+Combined Factor            1.00053703
+
+US NATIONAL GRID DESIGNATOR: 30LTH1444535594(NAD 83)
+
+
+                              BASE STATIONS USED
+PID       DESIGNATION                        LATITUDE    LONGITUDE DISTANCE(m)
+       MBAR                                                         4258846.8
+       PRE3                                                         3627969.7
+       HRAO                                                         3580030.7
+
+                 NEAREST NGS PUBLISHED CONTROL POINT
+AB9721      SMJP A                         N052712.039 W0551013.807 5944372.8
+
+This position and the above vector components were computed without any
+knowledge by the National Geodetic Survey regarding the equipment or
+field operating procedures used.

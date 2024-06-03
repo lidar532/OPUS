@@ -1,0 +1,62 @@
+FILE: hikb0610.24o OP1717174949906
+
+ 1009   WARNING! You selected antenna type ‘NONE’, so no calibration was applied.
+ 1009   Coordinates with reduced accuracy were computed for your antenna phase center.
+ 1009   For help identifying yours, or to add a new type, contact ngs.antcal@noaa.gov
+ 1009
+ 1008   NOTE: You provided a zero or negative antenna height.
+ 1008   If ARP HGT = 0.0, OPUS solves for the position of your selected antenna's reference point (ARP).
+ 1008   If ARP HGT < 0.0, OPUS solves for a location inside or above the antenna
+ 1008
+                              NGS OPUS SOLUTION REPORT
+                              ========================
+
+All computed coordinate accuracies are listed as peak-to-peak values.
+For additional information: https://www.ngs.noaa.gov/OPUS/about.jsp#accuracy
+
+      USER: fake@email.com                           DATE: May 31, 2024
+RINEX FILE: hikb061a.24o                             TIME: 17:05:35 UTC
+
+
+  SOFTWARE: page5  2008.25 master280.pl 160321      START: 2024/03/01  00:00:00
+ EPHEMERIS: igs23035.eph [precise]                   STOP: 2024/03/01  03:00:00
+  NAV FILE: brdc0610.24n                         OBS USED:  6650 /  6760   :  98%
+  ANT NAME: NONE            NONE              # FIXED AMB:    30 /    35   :  86%
+ARP HEIGHT: 0.000                             OVERALL RMS: 0.014(m)
+
+
+ REF FRAME: NAD_83(2011)(EPOCH:2010.0000)              ITRF2014 (EPOCH:2024.1641)
+
+         X:     -5060142.450(m)   0.032(m)          -5060143.687(m)   0.032(m)
+         Y:       149883.062(m)   0.023(m)            149885.063(m)   0.023(m)
+         Z:     -3867002.703(m)   0.074(m)          -3867001.851(m)   0.074(m)
+
+       LAT:  -37 33 39.78155      0.079(m)       -37 33 39.73403      0.079(m)
+     E LON:  178 18 12.15533      0.023(m)       178 18 12.07534      0.023(m)
+     W LON:  181 41 47.84467      0.023(m)       181 41 47.92466      0.023(m)
+    EL HGT:          106.899(m)   0.020(m)               107.406(m)   0.020(m)
+ ORTHO HGT: [No NGS Geoid Model Available.]
+
+                        UTM COORDINATES    STATE PLANE COORDINATES
+                         UTM (Zone 60)         *** NOTE ***
+Northing (Y) [meters]     5842087.278      Please manually select
+Easting (X)  [meters]      615114.257      SPC zone.
+Convergence  [degrees]     0.79463333
+Point Scale                0.99976322
+Combined Factor            0.99974645
+
+US NATIONAL GRID DESIGNATOR: 60HXD1511442087(NAD 83)
+
+
+                              BASE STATIONS USED
+PID       DESIGNATION                        LATITUDE    LONGITUDE DISTANCE(m)
+       WGTN                                                          514672.1
+       AUCK                                                          326208.6
+       TIDB                                                         2609690.3
+
+                 NEAREST NGS PUBLISHED CONTROL POINT
+AI9481      STEPS POINT ET                 S142224.411 W1704534.325 2787669.1
+
+This position and the above vector components were computed without any
+knowledge by the National Geodetic Survey regarding the equipment or
+field operating procedures used.

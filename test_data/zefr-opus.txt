@@ -1,0 +1,66 @@
+FILE: zefr1510.24o OP1717166903337
+
+ 1009   WARNING! You selected antenna type ‘NONE’, so no calibration was applied.
+ 1009   Coordinates with reduced accuracy were computed for your antenna phase center.
+ 1009   For help identifying yours, or to add a new type, contact ngs.antcal@noaa.gov
+ 1009
+ 1008   NOTE: You provided a zero or negative antenna height.
+ 1008   If ARP HGT = 0.0, OPUS solves for the position of your selected antenna's reference point (ARP).
+ 1008   If ARP HGT < 0.0, OPUS solves for a location inside or above the antenna
+ 1008
+ 2005   NOTE:  The IGS precise and IGS rapid orbits were not available
+ 2005   at processing time.  The IGS ultra-rapid orbit was/will be used to
+ 2005   process the data.
+ 2005   
+                              NGS OPUS SOLUTION REPORT
+                              ========================
+
+All computed coordinate accuracies are listed as peak-to-peak values.
+For additional information: https://www.ngs.noaa.gov/OPUS/about.jsp#accuracy
+
+      USER: fake@email.com                           DATE: May 31, 2024
+RINEX FILE: zefr151a.24o                             TIME: 14:49:06 UTC
+
+
+  SOFTWARE: page5  2008.25 master240.pl 160321      START: 2024/05/30  00:00:00
+ EPHEMERIS: igu23164.eph [ultra-rapid]               STOP: 2024/05/30  02:00:00
+  NAV FILE: brdc1510.24n                         OBS USED:  4379 /  4625   :  95%
+  ANT NAME: NONE            NONE              # FIXED AMB:    33 /    33   : 100%
+ARP HEIGHT: 0.000                             OVERALL RMS: 0.010(m)
+
+
+ REF FRAME: NAD_83(2011)(EPOCH:2010.0000)              ITRF2014 (EPOCH:2024.4099)
+
+         X:       766681.326(m)   0.014(m)            766680.442(m)   0.014(m)
+         Y:     -5571330.066(m)   0.006(m)          -5571328.511(m)   0.006(m)
+         Z:      2998751.262(m)   0.004(m)           2998751.104(m)   0.004(m)
+
+       LAT:   28 13 39.32263      0.003(m)        28 13 39.34362      0.003(m)
+     E LON:  277 50  7.32822      0.015(m)       277 50  7.30388      0.015(m)
+     W LON:   82  9 52.67178      0.015(m)        82  9 52.69612      0.015(m)
+    EL HGT:            0.116(m)   0.006(m)                -1.422(m)   0.006(m)
+ ORTHO HGT:           26.321(m)   0.061(m) [NAVD88 (Computed using GEOID18)]
+
+                        UTM COORDINATES    STATE PLANE COORDINATES
+                         UTM (Zone 17)         SPC (0902 FL W)
+Northing (Y) [meters]     3122963.413           431440.257
+Easting (X)  [meters]      385727.644           183841.671
+Convergence  [degrees]    -0.55090000          -0.07786667
+Point Scale                0.99976116           0.99994440
+Combined Factor            0.99976114           0.99994438
+
+US NATIONAL GRID DESIGNATOR: 17RLM8572822963(NAD 83)
+
+
+                              BASE STATIONS USED
+PID       DESIGNATION                        LATITUDE    LONGITUDE DISTANCE(m)
+DQ7965 FLWE WEDGEFIELD FL CORS ARP         N282626.477 W0810533.176  107743.3
+DG4689 DUNN DUNNELLON CORS ARP             N290343.743 W0822215.331   94667.0
+DF7046 BRTW BARTOW CORS ARP                N275658.642 W0814658.201   48548.1
+
+                 NEAREST NGS PUBLISHED CONTROL POINT
+DF7990      ZEPHYRHILLS CORS ARP           N281339.322 W0820952.671       0.0
+
+This position and the above vector components were computed without any
+knowledge by the National Geodetic Survey regarding the equipment or
+field operating procedures used.

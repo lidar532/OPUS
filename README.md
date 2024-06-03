@@ -11,6 +11,11 @@ documentation.
 pip install OPUS
 ```
 
+## Dev Install
+``` sh
+pip -e install OPUS
+```
+
 ## How to use
 
 Fill me in please! Don’t forget code examples:

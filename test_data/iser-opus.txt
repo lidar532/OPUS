@@ -1,0 +1,62 @@
+FILE: iser0610.24o OP1717174933370
+
+ 1009   WARNING! You selected antenna type ‘NONE’, so no calibration was applied.
+ 1009   Coordinates with reduced accuracy were computed for your antenna phase center.
+ 1009   For help identifying yours, or to add a new type, contact ngs.antcal@noaa.gov
+ 1009
+ 1008   NOTE: You provided a zero or negative antenna height.
+ 1008   If ARP HGT = 0.0, OPUS solves for the position of your selected antenna's reference point (ARP).
+ 1008   If ARP HGT < 0.0, OPUS solves for a location inside or above the antenna
+ 1008
+                              NGS OPUS SOLUTION REPORT
+                              ========================
+
+All computed coordinate accuracies are listed as peak-to-peak values.
+For additional information: https://www.ngs.noaa.gov/OPUS/about.jsp#accuracy
+
+      USER: fake@email.com                           DATE: May 31, 2024
+RINEX FILE: iser061a.24o                             TIME: 17:04:03 UTC
+
+
+  SOFTWARE: page5  2008.25 master295.pl 160321      START: 2024/03/01  00:00:00
+ EPHEMERIS: igs23035.eph [precise]                   STOP: 2024/03/01  03:00:00
+  NAV FILE: brdc0610.24n                         OBS USED:  7199 /  7317   :  98%
+  ANT NAME: NONE            NONE              # FIXED AMB:    33 /    38   :  87%
+ARP HEIGHT: 0.000                             OVERALL RMS: 0.014(m)
+
+
+ REF FRAME: NAD_83(2011)(EPOCH:2010.0000)              ITRF2014 (EPOCH:2024.1641)
+
+         X:      3708162.254(m)   0.022(m)           3708160.660(m)   0.022(m)
+         Y:      3582296.317(m)   0.004(m)           3582298.007(m)   0.004(m)
+         Z:      3742780.438(m)   0.016(m)           3742781.769(m)   0.016(m)
+
+       LAT:   36  9 35.45100      0.005(m)        36  9 35.48531      0.005(m)
+     E LON:   44  0 39.30023      0.014(m)        44  0 39.39314      0.014(m)
+     W LON:  315 59 20.69977      0.014(m)       315 59 20.60686      0.014(m)
+    EL HGT:          430.457(m)   0.021(m)               431.265(m)   0.021(m)
+ ORTHO HGT: [No NGS Geoid Model Available.]
+
+                        UTM COORDINATES    STATE PLANE COORDINATES
+                         UTM (Zone 38)         *** NOTE ***
+Northing (Y) [meters]     4002131.226      Please manually select
+Easting (X)  [meters]      411035.167      SPC zone.
+Convergence  [degrees]    -0.58363611
+Point Scale                0.99969752
+Combined Factor            0.99962999
+
+US NATIONAL GRID DESIGNATOR: 38SMF1103502131(NAD 83)
+
+
+                              BASE STATIONS USED
+PID       DESIGNATION                        LATITUDE    LONGITUDE DISTANCE(m)
+       YIBL                                                         1934218.8
+DK7831 ISNA IRAQ SURVEY NAJAF CORS ARP                               461035.9
+       ZECK                                                          871730.2
+
+                 NEAREST NGS PUBLISHED CONTROL POINT
+DK4115      IQALUIT WAAS CORS ARP          N634353.319 W0683235.430 7459526.4
+
+This position and the above vector components were computed without any
+knowledge by the National Geodetic Survey regarding the equipment or
+field operating procedures used.

@@ -1,0 +1,62 @@
+FILE: vith1010.24o OP1717389240592
+
+ 1009   WARNING! You selected antenna type ‘NONE’, so no calibration was applied.
+ 1009   Coordinates with reduced accuracy were computed for your antenna phase center.
+ 1009   For help identifying yours, or to add a new type, contact ngs.antcal@noaa.gov
+ 1009
+ 1008   NOTE: You provided a zero or negative antenna height.
+ 1008   If ARP HGT = 0.0, OPUS solves for the position of your selected antenna's reference point (ARP).
+ 1008   If ARP HGT < 0.0, OPUS solves for a location inside or above the antenna
+ 1008
+                              NGS OPUS SOLUTION REPORT
+                              ========================
+
+All computed coordinate accuracies are listed as peak-to-peak values.
+For additional information: https://www.ngs.noaa.gov/OPUS/about.jsp#accuracy
+
+      USER: fake@email.com                           DATE: June 03, 2024
+RINEX FILE: vith101j.24o                             TIME: 04:35:50 UTC
+
+
+  SOFTWARE: page5  2008.25 master274.pl 160321      START: 2024/04/10  09:00:00
+ EPHEMERIS: igs23093.eph [precise]                   STOP: 2024/04/11  05:00:00
+  NAV FILE: brdc1010.24n                         OBS USED: 55202 / 57063   :  97%
+  ANT NAME: NONE            NONE              # FIXED AMB:   199 /   226   :  88%
+ARP HEIGHT: 0.000                             OVERALL RMS: 0.017(m)
+
+
+ REF FRAME: NAD_83(2011)(EPOCH:2010.0000)              ITRF2014 (EPOCH:2024.2754)
+
+         X:      2562351.844(m)   0.010(m)           2562351.231(m)   0.010(m)
+         Y:     -5487281.701(m)   0.019(m)          -5487279.796(m)   0.019(m)
+         Z:      1994491.511(m)   0.002(m)           1994491.525(m)   0.002(m)
+
+       LAT:   18 20 35.97850      0.006(m)        18 20 35.99923      0.006(m)
+     E LON:  295  1 50.82787      0.002(m)       295  1 50.83640      0.002(m)
+     W LON:   64 58  9.17213      0.002(m)        64 58  9.16360      0.002(m)
+    EL HGT:            6.421(m)   0.021(m)                 4.540(m)   0.021(m)
+ ORTHO HGT:           48.608(m)   0.057(m) [ H = h-N (N = GEOID18 HGT)]
+
+                        UTM COORDINATES    STATE PLANE COORDINATES
+                         UTM (Zone 20)         SPC (5200 PRVI)
+Northing (Y) [meters]     2029296.339           257065.539
+Easting (X)  [meters]      291907.862           354752.344
+Convergence  [degrees]    -0.61995556           0.45810556
+Point Scale                1.00013536           0.99999578
+Combined Factor            1.00013435           0.99999477
+
+US NATIONAL GRID DESIGNATOR: 20QKF9190829296(NAD 83)
+
+
+                              BASE STATIONS USED
+PID       DESIGNATION                        LATITUDE    LONGITUDE DISTANCE(m)
+DO2636 PRFJ FAJARDO CORS ARP               N181934.736 W0653905.008   72132.5
+DO2488 ZSU4 SAN JUAN WAAS 4 CORS ARP       N182552.792 W0655936.520  108671.1
+AB9324 CRO1 ST CROIX VLBA RM 1 CORS MON    N174524.821 W0643503.553   76638.2
+
+                 NEAREST NGS PUBLISHED CONTROL POINT
+DI2149      ST. THOMAS CORS ARP            N182035.978 W0645809.171       0.0
+
+This position and the above vector components were computed without any
+knowledge by the National Geodetic Survey regarding the equipment or
+field operating procedures used.

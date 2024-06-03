@@ -1,0 +1,62 @@
+FILE: ccj20610.24o OP1717174003799
+
+ 1009   WARNING! You selected antenna type ‘NONE’, so no calibration was applied.
+ 1009   Coordinates with reduced accuracy were computed for your antenna phase center.
+ 1009   For help identifying yours, or to add a new type, contact ngs.antcal@noaa.gov
+ 1009
+ 1008   NOTE: You provided a zero or negative antenna height.
+ 1008   If ARP HGT = 0.0, OPUS solves for the position of your selected antenna's reference point (ARP).
+ 1008   If ARP HGT < 0.0, OPUS solves for a location inside or above the antenna
+ 1008
+                              NGS OPUS SOLUTION REPORT
+                              ========================
+
+All computed coordinate accuracies are listed as peak-to-peak values.
+For additional information: https://www.ngs.noaa.gov/OPUS/about.jsp#accuracy
+
+      USER: fake@email.com                           DATE: May 31, 2024
+RINEX FILE: ccj2061a.24o                             TIME: 16:48:04 UTC
+
+
+  SOFTWARE: page5  2008.25 master251.pl 160321      START: 2024/03/01  00:00:00
+ EPHEMERIS: igs23035.eph [precise]                   STOP: 2024/03/01  03:00:00
+  NAV FILE: brdc0610.24n                         OBS USED:  5791 /  6718   :  86%
+  ANT NAME: NONE            NONE              # FIXED AMB:    24 /    34   :  71%
+ARP HEIGHT: 0.000                             OVERALL RMS: 0.013(m)
+
+
+ REF FRAME: NAD_83(2011)(EPOCH:2010.0000)              ITRF2014 (EPOCH:2024.1641)
+
+         X:     -4490604.139(m)   0.069(m)          -4490604.966(m)   0.069(m)
+         Y:      3483893.479(m)   0.101(m)           3483895.132(m)   0.101(m)
+         Z:      2884927.227(m)   0.068(m)           2884928.350(m)   0.068(m)
+
+       LAT:   27  4  3.11221      0.041(m)        27  4  3.12006      0.041(m)
+     E LON:  142 11 42.11041      0.093(m)       142 11 42.08143      0.093(m)
+     W LON:  217 48 17.88959      0.093(m)       217 48 17.91857      0.093(m)
+    EL HGT:          102.179(m)   0.108(m)               104.174(m)   0.108(m)
+ ORTHO HGT: [No NGS Geoid Model Available.]
+
+                        UTM COORDINATES    STATE PLANE COORDINATES
+                         UTM (Zone 54)         *** NOTE ***
+Northing (Y) [meters]     2994477.361      Please manually select
+Easting (X)  [meters]      618499.355      SPC zone.
+Convergence  [degrees]     0.54385000
+Point Scale                0.99977335
+Combined Factor            0.99975730
+
+US NATIONAL GRID DESIGNATOR: 54RXQ1849994477(NAD 83)
+
+
+                              BASE STATIONS USED
+PID       DESIGNATION                        LATITUDE    LONGITUDE DISTANCE(m)
+       OSN4                                                         1801655.9
+DR6555 CKSV TAINAN CORS ARP                                         2248179.1
+DR7365 CHNN CHINEN CORS ARP                                         1430655.7
+
+                 NEAREST NGS PUBLISHED CONTROL POINT
+AA5094      NPT                            N203311.140 W2150626.883  772016.6
+
+This position and the above vector components were computed without any
+knowledge by the National Geodetic Survey regarding the equipment or
+field operating procedures used.

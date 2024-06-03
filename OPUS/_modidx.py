@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://lidar532.github.io',
                 'git_url': 'https://github.com/lidar532/OPUS',
                 'lib_path': 'OPUS'},
-  'syms': {'OPUS.core': {'OPUS.core.foo': ('core.html#foo', 'OPUS/core.py')}}}
+  'syms': { 'OPUS.OPUS_test_data': {},
+            'OPUS.core': {'OPUS.core.foo': ('core.html#foo', 'OPUS/core.py')},
+            'OPUS.decode_OPUS': {'OPUS.decode_OPUS.decode_OPUS': ('decode_opus.html#decode_opus', 'OPUS/decode_OPUS.py')}}}

@@ -8,6 +8,9 @@ docs:
 
 devinstall:
 	pip install -e . 
+
+export:
+	nbdev_export
     
 install:
 	pip install . 

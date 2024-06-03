@@ -1,0 +1,62 @@
+FILE: prmi1510.24o OP1717388926022
+
+ 1009   WARNING! You selected antenna type ‘NONE’, so no calibration was applied.
+ 1009   Coordinates with reduced accuracy were computed for your antenna phase center.
+ 1009   For help identifying yours, or to add a new type, contact ngs.antcal@noaa.gov
+ 1009
+ 1008   NOTE: You provided a zero or negative antenna height.
+ 1008   If ARP HGT = 0.0, OPUS solves for the position of your selected antenna's reference point (ARP).
+ 1008   If ARP HGT < 0.0, OPUS solves for a location inside or above the antenna
+ 1008
+                              NGS OPUS SOLUTION REPORT
+                              ========================
+
+All computed coordinate accuracies are listed as peak-to-peak values.
+For additional information: https://www.ngs.noaa.gov/OPUS/about.jsp#accuracy
+
+      USER: fake@email.com                           DATE: June 03, 2024
+RINEX FILE: prmi151f.24o                             TIME: 04:29:27 UTC
+
+
+  SOFTWARE: page5  2008.25 master276.pl 160321      START: 2024/05/30  05:00:00
+ EPHEMERIS: igr23164.eph [rapid]                     STOP: 2024/05/30  08:00:00
+  NAV FILE: brdc1510.24n                         OBS USED:  6066 /  6225   :  97%
+  ANT NAME: NONE            NONE              # FIXED AMB:    31 /    35   :  89%
+ARP HEIGHT: 0.000                             OVERALL RMS: 0.016(m)
+
+
+ REF FRAME: NAD_83(2011)(EPOCH:2010.0000)              ITRF2014 (EPOCH:2024.4106)
+
+         X:      2366882.707(m)   0.024(m)           2366882.108(m)   0.024(m)
+         Y:     -5588326.057(m)   0.047(m)          -5588324.165(m)   0.047(m)
+         Z:      1955260.602(m)   0.021(m)           1955260.589(m)   0.021(m)
+
+       LAT:   17 58 13.42085      0.009(m)        17 58 13.44025      0.009(m)
+     E LON:  292 57 16.66001      0.017(m)       292 57 16.66634      0.017(m)
+     W LON:   67  2 43.33999      0.017(m)        67  2 43.33366      0.017(m)
+    EL HGT:          -23.535(m)   0.057(m)               -25.418(m)   0.057(m)
+ ORTHO HGT:           16.343(m)   0.093(m) [ H = h-N (N = GEOID18 HGT)]
+
+                        UTM COORDINATES    STATE PLANE COORDINATES
+                         UTM (Zone 19)         SPC (5200 PRVI)
+Northing (Y) [meters]     1987999.738           215278.353
+Easting (X)  [meters]      706989.250           135171.059
+Convergence  [degrees]     0.60326944          -0.19150000
+Point Scale                1.00012973           1.00000441
+Combined Factor            1.00013343           1.00000811
+
+US NATIONAL GRID DESIGNATOR: 19QGV0698988000(NAD 83)
+
+
+                              BASE STATIONS USED
+PID       DESIGNATION                        LATITUDE    LONGITUDE DISTANCE(m)
+DL6655 PRAR ARECIBO CORS ARP               N182701.705 W0663850.722   67789.0
+DL9082 PRLT CABO ROJO CORS ARP             N180335.401 W0671120.881   18159.2
+DL7620 PRJC SAN SEBASTIAN CORS ARP         N182032.024 W0665958.193   41440.7
+
+                 NEAREST NGS PUBLISHED CONTROL POINT
+DH9349      MAGUEYES ISLAND CORS ARP       N175813.420 W0670243.339       0.0
+
+This position and the above vector components were computed without any
+knowledge by the National Geodetic Survey regarding the equipment or
+field operating procedures used.
