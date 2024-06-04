@@ -1,4 +1,5 @@
 all:
+	nbdev_clean
 	nbdev_export
 	nbdev_docs
 	nbdev_prepare
